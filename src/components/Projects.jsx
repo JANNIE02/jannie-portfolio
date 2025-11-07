@@ -6,10 +6,10 @@ const Projects = () => {
   const project = {
     title: "ONIMS System",
     description:
-      "A full-stack NGO information management system built with React, Node.js, Express, and PostgreSQL — deployed on Render. This comprehensive platform streamlines NGO operations, member management, and data tracking with an intuitive interface and robust backend architecture.",
+      "A full-stack NGO information management system built with React, Node.js, Express, and MongoDB — deployed on AWS. This comprehensive platform streamlines NGO operations, member management, and data tracking with an intuitive interface and robust backend architecture.",
     image: "/images/onims.png",
     link: "https://ims.holdthechild.net/",
-    tags: ["React", "Node.js", "PostgreSQL", "Express", "Full-Stack"],
+    tags: ["React", "Node.js", "MongoDB", "Express", "Full-Stack"],
     gradient: "from-rose-400 to-pink-500",
   };
 
