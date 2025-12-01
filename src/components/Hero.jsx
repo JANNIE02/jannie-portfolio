@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Github, Linkedin, Mail, Download } from "lucide-react";
+import resumePDF from "../assets/Birungi Jannie Resume.pdf";
 
 export default function Hero() {
   return (
@@ -77,7 +78,6 @@ export default function Hero() {
           </p>
           <p className="text-base md:text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed px-4">
             I craft meaningful digital experiences with modern technologies.
-    
           </p>
         </motion.div>
 
@@ -102,13 +102,13 @@ export default function Hero() {
             Contact Me
           </a>
           <a
-          href="/Birungi Jannie Resume.pdf"  // ← Updated to match your filename
-  download="Birungi-Jannie-Resume.pdf"  // ← How it saves on user's computer
-  className="px-8 py-4 bg-white hover:bg-gray-50 text-gray-800 font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center gap-2 border border-gray-200"
->
-  <Download className="w-5 h-5" />
-  Resume
-</a>
+            href={resumePDF}
+            download="Birungi-Jannie-Resume.pdf"
+            className="px-6 md:px-8 py-3 md:py-4 bg-white hover:bg-gray-50 text-gray-800 font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center gap-2 border border-gray-200 text-sm md:text-base"
+          >
+            <Download className="w-5 h-5" />
+            Resume
+          </a>
         </motion.div>
 
         {/* Stats */}
@@ -116,16 +116,12 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8, duration: 0.8 }}
-          className="grid grid-cols-3 gap-4 md:gap-8 pt-8 md:pt-12 max-w-2xl mx-auto px-4"
+          className="grid grid-cols-2 gap-4 md:gap-8 pt-8 md:pt-12 max-w-2xl mx-auto px-4"
         >
           <div className="text-center">
             <p className="text-2xl md:text-3xl font-bold text-rose-500">1+</p>
             <p className="text-xs md:text-sm text-gray-600 mt-1">Years Experience</p>
           </div>
-          {/* <div className="text-center">
-            <p className="text-2xl md:text-3xl font-bold text-rose-500"></p>
-            <p className="text-xs md:text-sm text-gray-600 mt-1">Projects Completed</p>
-          </div> */}
           <div className="text-center">
             <p className="text-2xl md:text-3xl font-bold text-rose-500">10+</p>
             <p className="text-xs md:text-sm text-gray-600 mt-1">Technologies</p>
@@ -141,10 +137,6 @@ export default function Hero() {
         className="absolute bottom-8 md:bottom-10 left-1/2 transform -translate-x-1/2"
       >
         <div className="flex flex-col items-center gap-2">
-          {/* <span className="text-xs md:text-sm text-gray-500">Scroll to explore</span> */}
-          {/* <div className="w-6 h-10 border-2 border-gray-300 rounded-full flex items-start justify-center p-2">
-            <div className="w-1 h-3 bg-rose-400 rounded-full animate-bounce"></div>
-          </div> */}
         </div>
       </motion.div>
 
