@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/jannie-portfolio/static/css/main.06ac1c57.css",
-    "main.js": "/jannie-portfolio/static/js/main.58296699.js",
+    "main.css": "/jannie-portfolio/static/css/main.abaa1303.css",
+    "main.js": "/jannie-portfolio/static/js/main.afc74c40.js",
     "static/js/453.4dba199c.chunk.js": "/jannie-portfolio/static/js/453.4dba199c.chunk.js",
+    "static/media/portifolio-pic.jpg": "/jannie-portfolio/static/media/portifolio-pic.0c594d2baefe0507e6bd.jpg",
+    "static/media/Birungi Jannie Resume.pdf": "/jannie-portfolio/static/media/Birungi Jannie Resume.b1294c49d3a6e59c2763.pdf",
     "index.html": "/jannie-portfolio/index.html",
-    "main.06ac1c57.css.map": "/jannie-portfolio/static/css/main.06ac1c57.css.map",
-    "main.58296699.js.map": "/jannie-portfolio/static/js/main.58296699.js.map",
+    "main.abaa1303.css.map": "/jannie-portfolio/static/css/main.abaa1303.css.map",
+    "main.afc74c40.js.map": "/jannie-portfolio/static/js/main.afc74c40.js.map",
     "453.4dba199c.chunk.js.map": "/jannie-portfolio/static/js/453.4dba199c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.06ac1c57.css",
-    "static/js/main.58296699.js"
+    "static/css/main.abaa1303.css",
+    "static/js/main.afc74c40.js"
   ]
 }
